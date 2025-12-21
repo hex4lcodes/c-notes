@@ -2,6 +2,6 @@ This is a collection of all of my notes and projects created in the C progamming
 slowly but surely with links to each topic I touch and point of my learning process, so enjoy and check out the links to my other projects below
 
 
-1. Web Development:
-2. Python:
-3. Cybersecurity Writeups:
+1. Web Development: https://github.com/hex4lcodes/web-development-progression
+2. Python: https://github.com/hex4lcodes/python-filez
+3. Cybersecurity Writeups: https://github.com/hex4lcodes/cybersecurity-writeup
