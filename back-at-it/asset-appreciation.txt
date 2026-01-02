@@ -1,0 +1,7 @@
+- prompt user to enter asset purchase price
+p <-- read user input
+- prompt user for sale price
+s <-- read input
+- difference (d) <-- s-p
+- appreciation rate (r) <-- d/p
+- avg apreciation rate (a) <-- (1+r)^1/y - 1
