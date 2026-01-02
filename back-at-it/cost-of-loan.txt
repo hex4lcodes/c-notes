@@ -1,0 +1,9 @@
+- prompt user to enter principle
+p <-- read user input
+- prompt for yearly interest rate (APR)
+r <-- read input
+i <-- r/12
+- prompt user to enter loan term (in years)
+n <-- read user input
+C <-- combined formula (will post picture of formula)
+output "over (n) years the total cost of a loan for (p) dollars is (C)
