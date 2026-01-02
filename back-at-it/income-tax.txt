@@ -1,0 +1,9 @@
+
+- prompt user to enter starting mileage
+begmile <-- read user input
+- prompt user to enter ending mileage
+endmile <-- read user input
+- travel <-- endmile - begmile
+- rate <-- 0.575 
+- reimburse <-- travel * rate
+output "You traveled (travel) miles. At (rate) per mile, your reimbursement is (reimburse)"
