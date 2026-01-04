@@ -1,3 +1,3 @@
 i took a very long break from doing anything C or programming related due to work/life. Most of the code in the main folder was in December but dont showcase full knowledge. It's
 1/1/26 when Im writing this and its time to get back into the swing of things. I did a Python version of this but the C stuff will mostly be psuedocode for now.
-The projects here are from a book I found a while back, if I can get the pdf or a link Ill add it to this or the main page.
+The projects here are from a book called Computer Science I by Dr. Chris Bourke of the University of Nebraska–Lincoln if I can get the pdf or a link Ill add it to this or the main page.
