@@ -1,0 +1,16 @@
+(distance formula for two points)
+
+- prompt the user for the value of x1
+x1 <-- read user input
+- prompt user for value of x2
+x2 <-- read user input
+
+
+- prompt user to enter y1
+y1 <-- read user input
+- prompt user for y2
+y2 <-- read user input
+
+euclid <-- sqrt(((x1-x2)^2) + ((y1-y2)^2))
+
+output "the distane between ((x1), (y1)) and ((x2), (y2)) is: (euclid)"
