@@ -1,0 +1,8 @@
+(1086 speed of sound in dry air) (T temp (in farenheit))
+
+
+- dry_speed <-- 1086
+- prompt user to enter temp in farenehit
+T <-- read user input
+- v <-- 1086 * sqrt((5*T + 297) / 247)
+- output "with a temp of (T) degrees farenheit the speed of sound is: (v)
