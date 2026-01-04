@@ -1,7 +1,6 @@
 (i is interest rate) 
 
 - e <-- euler's number (2.71828)
-- prompt user to enter interest rate
 - i <-- nominal interest rate (0.06) 6%
 - apy <-- e ^i - 1
 output "With an interest rate of (i) the APY would be (apy)"
