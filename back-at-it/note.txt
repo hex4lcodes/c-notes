@@ -1,3 +1,12 @@
-i took a very long break from doing anything C or programming related due to work/life. Most of the code in the main folder was in December but dont showcase full knowledge. It's
-1/1/26 when Im writing this and its time to get back into the swing of things. I did a Python version of this but the C stuff will mostly be psuedocode for now.
-The projects here are from a book called Computer Science I by Dr. Chris Bourke of the University of Nebraska–Lincoln if I can get the pdf or a link Ill add it to this or the main page.
+i took a very long break from doing anything C or programming related due to work/life. 
+Most of the code in the main folder was in December but dont showcase full knowledge. 
+It's 1/1/26 when Im writing this and its time to get back into the swing of things. I did a Python version of this 
+but the C stuff will mostly be psuedocode for now.
+The projects here are from a book called Computer Science I by Dr. Chris Bourke of the University of Nebraska–Lincoln 
+if I can get the pdf or a link Ill add it to this or the main page.
+
+
+UPDATE: 1/14/26 - I found out I had more C code saved on my laptop that I thought I'd gotten rid of, but even that is old
+(from around late September, early November 2025) ill post those since theyre a bit more complex (still beginner-ish tho)
+
+I have some ideas for C turning some of the book's pseudocode (including stuff in this folder) into programs so look out for those!
