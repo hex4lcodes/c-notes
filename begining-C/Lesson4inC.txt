@@ -1,0 +1,106 @@
+//C PROGRAMMING HW PROJECT #4
+
+
+//Dynamic BioData Program
+
+
+#include <stdio.h>
+
+int main() {
+
+//age
+int age;
+printf("How old are you? \n");
+scanf("%d", &age);
+
+
+//height work
+int height_feet;
+printf("How tall are you, (feet only eg. if you are 5ft6 enter 5) \n");
+scanf("%d", &height_feet);
+
+int height_inches;
+printf("How tall are you (inches only eg. if you are 5ft6 enter 6)? \n");
+scanf("%d", &height_inches);
+
+
+
+//clearing input for the char!!
+while (getchar() != '\n');
+
+char firstinit;
+printf("Enter your first initial: \n");
+scanf("%c", &firstinit);
+
+
+//name
+printf("Enter your FIRST name, omit apostrophes or dashes: \n");
+char name[30];
+scanf("%s", &name);
+
+
+//networth
+
+double worth;
+printf("Enter your networth: \n");
+scanf("%lf", &worth);
+
+
+//printing
+printf("Your name is: %s \n", name);
+printf("You are %d years old \n", age);
+printf("You are %dft and %din tall \n", height_feet, height_inches);
+printf("Your first initial is: %c \n", firstinit);
+printf("Your networth is: %.2lf \n", worth);
+
+return 0;
+}
+
+
+#include <stdio.h>
+
+int main(void) {
+    
+    //defining variables
+    float miles;
+    float kilometres; 
+
+    //getting the kilometres - dont forget newline (\n)
+    printf("Enter a distance in kilometres: \n");
+    scanf("%f", &kilometres); //dont forget the & in front of variables in scanf or you'll bug out
+
+    //conversion and printing
+    miles = kilometres * 0.621371;
+
+    printf("%.4f km is %.4f miles \n", kilometres, miles);
+    return 0;
+}
+
+
+#include <stdio.h>
+
+int main(void) {
+
+    char pete;
+    int repeat;
+
+    //getting the character using getchar()
+
+    printf("Enter a letter: \n");
+    pete = getchar();
+
+    //getting the number of repetitions
+    printf("How many times do you wan this letter repeated? \n");
+    scanf("%d", &repeat);
+
+    //printing everything in a for loop....
+
+    for (int m = 0; m < repeat; m++) {
+
+        putchar(pete);
+        putchar('\n');
+    }
+    return 0;
+}
+
+

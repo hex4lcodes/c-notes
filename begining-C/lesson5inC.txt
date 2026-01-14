@@ -1,0 +1,79 @@
+#include <stdio.h>
+
+int main(void) {
+
+    //defining variables and getting value
+
+    int numchoice;
+
+    printf("Enter a number: \n");
+    scanf("%d", &numchoice);
+
+    //if - else ladder statement
+    if (numchoice < 0) {
+
+        printf("Your number,  %d is negative \n", numchoice);
+    }
+    else if (numchoice > 0) {
+
+        printf("Your number, %d is positive \n", numchoice);
+    }
+    else if (numchoice == 0) {
+
+        printf("You picked 0 literally.. \n");
+    }
+    else {
+
+        printf("Please pick an actual non decimal number! \n");
+    }
+    return 0;
+}
+
+
+
+#include <stdio.h>
+#include <time.h>
+
+int main(void) {
+
+    //defining and asking for choice
+
+    int choice;
+
+    printf("Choose from the options below: \n");
+
+    //printing the menu
+    printf("1. Say Hello \n");
+    printf("2. Say Goodbye \n");
+    printf("3. Display current date and time \n");
+
+    //collect choice
+
+    scanf("%d", &choice);
+
+    //switch-case menu options - remember to break to give a stopping point so no infinite loop
+    switch (choice) {
+
+        case 1:
+            printf("Hello! :) \n");
+            break;
+
+        case 2:
+            printf("Goodbye :( \n)");
+            break;
+        
+        case 3: //date and time stuff (why we imported time.h)
+            time_t usertime;
+            time(&usertime); //like scanf for time
+
+            printf("Current date / time: %s", ctime(&usertime));
+            break;
+        
+        default:
+            printf("Invalid choice!");
+            break;
+    }
+
+
+    return 0;
+}
