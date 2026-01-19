@@ -2,7 +2,7 @@ This is a collection of all of my notes and projects created in the C progamming
 slowly but surely with links to each topic I touch and point of my learning process which are linked below:
 
 - Beginning stages: https://github.com/hex4lcodes/c-notes/tree/main/begining-C
-- **brief explanation: https://github.com/hex4lcodes/c-notes/blob/main/back-at-it/note.txt**
+- **brief explanation: [https://github.com/hex4lcodes/c-notes/blob/main/back-at-it/note.txt](https://github.com/hex4lcodes/c-notes/blob/main/back-at-it/readme.txt)**
 
 Check out some of my other projects: 
 
