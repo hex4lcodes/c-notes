@@ -6,7 +6,7 @@ The projects here are from a book called Computer Science I by Dr. Chris Bourke 
 if I can get the pdf or a link Ill add it to this or the main page.
 
 
-UPDATE: 1/14/26 - I found out I had more C code saved on my laptop that I thought I'd gotten rid of, but even that is old
-(from around late September, early November 2025) ill post those since theyre a bit more complex (still beginner-ish tho)
+UPDATE: 1/19/2026 - i found some more C code that I built in mid-November, early December, I posted it but Im going to delete them and progressively repost the 
+projects individually as well as som remakes for my Python projects
 
 I have some ideas for C turning some of the book's pseudocode (including stuff in this folder) into programs so look out for those!
